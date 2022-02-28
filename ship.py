@@ -30,6 +30,6 @@ class Ship():
             self.center -= self.ai_settings.ship_speed_factor
         self.rect.centerx = self.center
 
-    def blitime(self):
+    def blitme(self):
         # 在指定位置绘制飞船
         self.screen.blit(self.image, self.rect)
